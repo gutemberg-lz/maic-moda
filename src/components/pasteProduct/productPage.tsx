@@ -120,7 +120,7 @@ export const ProductPage = ({ productProps, relations }: Props) => {
                 <div className="h-full flex flex-col items-start justify-end ">
                   {product.haveDiscount && (
                     <p className="mt-3 font-semibold text-md text-layout/70 line-through decoration-primary/60">
-                      {product.initPrice}
+                      {product.initialPrice}
                     </p>
                   )}
                   <div className="flex items-center gap-1">
